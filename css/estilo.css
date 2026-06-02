@@ -22,10 +22,36 @@ body{
 
 /*banner*/
 
+.bg-banner-gamer {
+    background-color: #161920;
+    border: 1px solid #232733;
+}
+
+.btn-gamer-neon {
+    background-color: #00d2ff;
+    color: #0d0e12;
+    transition: all 0.3s ease;
+}
+
+/*banner (efeito ao passar o mouse no botão*/
+
+.btn-gamer-neon:hover {
+    background-color: transparent;
+    color: #00d2ff;
+    border: 1px solid #00d2ff;
+    box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
+}
+
 /*Produtos vendidos*/
 /*Rodapé*/
 
 /*Botão Voltar topo*/
+#voltar-topo {
+    z-index: 1030;
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.3);
+    display: none; /* Começa escondido */
+    transition: opacity 0.4s ease; /* Efeito suave ao aparecer */
+}
 
 /* página de login  */
 

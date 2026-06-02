@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LH Games</title>
+  <title>GAME STORE</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -17,7 +17,9 @@
 </head>
 
 <body>
+
   <header>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-topo-gamer">
       <div class="container">
         <a class="navbar-brand fw-bold text-white" href="index.html">
@@ -39,35 +41,104 @@
           </div>
         </div>
       </div>
-    </nav>
-    
+    </nav> 
+
   </header>
 
   <main>
 
+    <section id="section-banners" class="container py-5">
 
+      <div class="row align-items-center bg-banner-gamer rounded p-5">
+        <div class="col-md-6">
+          <span class="badge bg-primary mb-2 fw-bold">PROMOÇÃO DE INVERNO</span>
+          <h1 class="display-5 fw-bold text-white mb-3">UPGRADE SEU SETUP</h1>
+          <p class="text-muted mb-4">Encontre os melhores eletrônicos e acessórios com performance profissional e descontos de ate 40%.</p>
+          <a href="#section-vendidos" class="btn btn-gamer-neon fw-bold px-4 py-2">VER OFERTAS</a>
+        </div>
 
-    <section id="section-banners" class="container-fluid">
-
-      
+        <div class="col-md-6 text-center mt-4 mt-md-0">
+          <i class="bi bi-controller display-1 text-icon"></i>
+        </div>
+      </div>
 
     </section>
-    <section id="section-vendidos" class="container-fluid">
 
+    <section id="section-vendidos" class="container py-5">
       <h2>OS MAIS VENDIDOS</h2>
 
-     
+      <!--Headset Gamer Pro X-->
+    <div class="row g-4">
+    
+      <div class="col-12 col-md-4">
+        <div class="card bg-banner-gamer border-secondary h-100">
+          <div class="text-center py-5 bg-dark rounded-top">
+            <i class="bi bi-headset display-2 text-icon"></i>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-white fw-bold">Headset Gamer Pro X</h5>
+            <p class="card-text text-muted flex-grow-1">Som surround 7.1, isolamento acústico e microfone removível de alta
+              definição.</p>
+            <div class="mt-3">
+              <span class="fs-4 fw-bold text-white d-block mb-2">R$ 349,90</span>
+              <a href="#carrinho" class="btn btn-gamer-neon w-100 fw-bold">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+      <!--Mouse Gamer RGB 16000 DPI-->
+      <div class="col-12 col-md-4">
+        <div class="card bg-banner-gamer border-secondary h-100">
+          <div class="text-center py-5 bg-dark rounded-top">
+            <i class="bi bi-mouse3 display-2 text-icon"></i>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-white fw-bold">Mouse Gamer RGB 16000 DPI</h5>
+            <p class="card-text text-muted flex-grow-1">Sensor óptico de alta precisão, pesos ajustáveis e switches
+              mecânicos.
+            </p>
+            <div class="mt-3">
+              <span class="fs-4 fw-bold text-white d-block mb-2">R$ 189,90</span>
+              <a href="#carrinho" class="btn btn-gamer-neon w-100 fw-bold">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!--Teclado Mecânico Switch Blue-->
+      <div class="col-12 col-md-4">
+        <div class="card bg-banner-gamer border-secondary h-100">
+          <div class="text-center py-5 bg-dark rounded-top">
+            <i class="bi bi-keyboard display-2 text-icon"></i>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-white fw-bold">Teclado Mecânico Switch Blue</h5>
+            <p class="card-text text-muted flex-grow-1">Layout ABNT2, iluminação em múltiplos modos e resposta tátil rápida.
+            </p>
+            <div class="mt-3">
+              <span class="fs-4 fw-bold text-white d-block mb-2">R$ 279,90</span>
+              <a href="#carrinho" class="btn btn-gamer-neon w-100 fw-bold">COMPRAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     </div>
     </section>
 
-
   </main>
 
-  <footer>
-    <p></p>
+  <footer class="bg-topo-gamer text-center text-muted py-4 mt-5 border-top border-dark">
+    <div class="container">
+      <p class="mb-1 text-white fw-bold">GAMESTORE <span class="text-icon">PRO</span></p>
+      <p class="mb-0 small">&copy; 2026 LH Games. Todos os direitos reservados. Desenvolvido para fins acadêmicos - SENAI.
+      </p>
+    </div>
   </footer>
 
-  <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo</button>
+  <button id="voltar-topo" type="button" class="btn btn-gamer-neon position-fixed bottom-0 end-0 m-4 fw-bold" onclick="topo()">&uarr; Voltar ao topo</button>
 
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
