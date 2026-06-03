@@ -25,6 +25,59 @@ function topo() {
     });
 }
 
-//Validação de Login
+//Validação de cadastro e login
 
-//Ativar alert no botão cadastrar
+function cadastro() {
+
+    var usuarioCad = document.getElementById("usuario-cad").value;
+    var emailCad = document.getElementById("email").value;
+    var senhaCad = document.getElementById("senha-cad").value;
+
+    //Validação simples
+    if (usuarioCad === "" || emailCad === "" || senhaCad === "") {
+        alert("Por favor, preencha todos os campos do cadastro!");
+        return;
+    }
+
+    //Memória temporária
+    localStorage.setItem("usuarioSalvo", usuarioCad);
+    localStorage.setItem("senhaSalva", senhaCad);
+
+    alert("Cadastro realizado com sucesso! Agora faça o seu Login.");
+
+    //Limpa os campos de cadastro
+    document.getElementById("cadastro").reset();
+
+    //Esconder a section de cadastro e mostrar a de login
+    var sectionLogin = document.getElementById("section-login");
+    var sectionCadastro = document.getElementById("section-cadastro");
+
+    sectionCadastro.style.display = "none";
+    sectionCadastro.classList.add("escondido");
+    sectionLogin.style.display = "block";
+
+    //Um opacit para dar um estilo
+    setTimeout(function () {
+        sectionLogin.style.opacity = "1";
+    }, 10);
+}
+
+function login() {
+
+    //Valores digitados
+    var usuarioLogin = document.getElementById("usuario").value;
+    var senhaLogin = document.getElementById("senha").value;
+
+    //Dados guardados do cadastro (localStorage)
+    var usuarioRegistrado = localStorage.getItem("usuarioSalvo");
+    var senhaRegistrada = localStorage.getItem("senhaSalva");
+
+    //Validação dos dados
+    if (usuarioLogin === usuarioRegistrado && senhaLogin === senhaRegistrada) {
+        alert("Login realizado com sucesso! Bem-vindo à GameStore Pro.");
+        window.location.href = "index.html";
+    } else {
+        alert("Usuário ou senha incorretos!");
+    }
+
+}
