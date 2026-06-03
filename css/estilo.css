@@ -57,4 +57,7 @@ body{
 
 
 /* Formulário de cadastro*/
-
+.escondido {
+    display: none;
+    opacity: 0;
+}
