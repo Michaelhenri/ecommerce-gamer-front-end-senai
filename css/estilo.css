@@ -17,8 +17,6 @@ body{
     color: #00d2ff !important;
 }
 
-/*Conteudo principal*/
-
 
 /*banner*/
 
@@ -42,8 +40,24 @@ body{
     box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
 }
 
-/*Produtos vendidos*/
-/*Rodapé*/
+/*setas banner principal*/
+
+.seta-ante-borda {
+    left: 10px !important;
+}
+.seta-prox-borda {
+    right: 10px !important;
+}
+
+@media (min-width: 992px) {
+    .seta-ante-borda {
+        left: -50px !important;
+    }
+    .seta-prox-borda {
+        right: -50px !important;
+    }
+}
+
 
 /*Botão Voltar topo*/
 #voltar-topo {
@@ -52,8 +66,6 @@ body{
     display: none; /* Começa escondido */
     transition: opacity 0.4s ease; /* Efeito suave ao aparecer */
 }
-
-/* página de login  */
 
 
 /* Formulário de cadastro*/

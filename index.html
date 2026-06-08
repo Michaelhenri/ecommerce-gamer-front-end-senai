@@ -48,20 +48,70 @@
   <main>
 
     <section id="section-banners" class="container py-5">
-
-      <div class="row align-items-center bg-banner-gamer rounded p-5">
-        <div class="col-md-6">
-          <span class="badge bg-primary mb-2 fw-bold">PROMOÇÃO DE INVERNO</span>
-          <h1 class="display-5 fw-bold text-white mb-3">UPGRADE SEU SETUP</h1>
-          <p class="text-muted mb-4">Encontre os melhores eletrônicos e acessórios com performance profissional e descontos de ate 40%.</p>
-          <a href="#section-vendidos" class="btn btn-gamer-neon fw-bold px-4 py-2">VER OFERTAS</a>
+    
+      <div id="carrosselDestaques" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+    
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carrosselDestaques" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carrosselDestaques" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carrosselDestaques" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-
-        <div class="col-md-6 text-center mt-4 mt-md-0">
-          <i class="bi bi-controller display-1 text-icon"></i>
+    
+        <div class="carousel-inner">
+    
+          <div class="carousel-item active">
+            <div class="row align-items-center rounded p-5"
+              style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('img/banner1.PNG') no-repeat center center; background-size: cover; min-height: 350px;">
+              <div class="col-md-8 ps-4 ps-md-5">
+                <span class="badge bg-danger mb-2 fw-bold">BEM-VINDO</span>
+                <h1 class="display-5 fw-bold text-white mb-3">GAMESTORE <span class="text-icon">PRO</span></h1>
+                <p class="text-white-75 mb-4">A sua arena de compras definitiva. Os melhores hardwares, consoles e os jogos
+                  mais aguardados do mercado em um só lugar.</p>
+                <a href="#section-vendidos" class="btn btn-gamer-neon fw-bold px-4 py-2">EXPLORAR LOJA</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <div class="row align-items-center rounded p-5"
+              style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('img/banner3.PNG') no-repeat center center; background-size: cover; min-height: 350px;">
+              <div class="col-md-8 ps-4 ps-md-5">
+                <span class="badge bg-primary mb-2 fw-bold">PROMOÇÃO DE INVERNO</span>
+                <h1 class="display-5 fw-bold text-white mb-3">UPGRADE SEU SETUP</h1>
+                <p class="text-white-75 mb-4">Encontre os melhores eletrônicos e acessórios com performance profissional e
+                  descontos de até 40%.</p>
+                <a href="#section-vendidos" class="btn btn-gamer-neon fw-bold px-4 py-2">VER OFERTAS</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="carousel-item">
+            <div class="row align-items-center rounded p-5"
+              style="background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('img/jogo2.PNG') no-repeat center center; background-size: cover; min-height: 350px;">
+              <div class="col-md-8 ps-4 ps-md-5">
+                <span class="badge bg-warning text-dark mb-2 fw-bold">PRÉ-VENDA DISPONÍVEL</span>
+                <h1 class="display-5 fw-bold text-white mb-3">VIVA A NOVA ERA</h1>
+                <p class="text-white-75 mb-4">Garanta já o jogo mais aguardado do ano com bônus exclusivos de pré-venda e skins
+                  lendárias inclusas.</p>
+                <a href="#section-vendidos" class="btn btn-gamer-neon fw-bold px-4 py-2">GARANTIR CÓPIA</a>
+              </div>
+            </div>
+          </div>
+    
         </div>
+    
+        <button class="carousel-control-prev seta-ante-borda" type="button" data-bs-target="#carrosselDestaques" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+
+        <button class="carousel-control-next seta-prox-borda" type="button" data-bs-target="#carrosselDestaques" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+    
       </div>
-
     </section>
 
     <section id="section-vendidos" class="container py-5">
