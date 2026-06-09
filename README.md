@@ -1,0 +1,24 @@
+# 🎮 GameStore Pro - E-commerce Gamer
+
+Projeto de um e-commerce focado no público gamer, desenvolvido como parte do curso de Desenvolvimento Front-End do SENAI. A aplicação conta com uma interface responsiva, identidade visual moderna com estilo neon e componentes dinâmicos.
+
+## 🔗 Link do Projeto
+Você pode testar a aplicação em tempo real clicando no link abaixo:
+👉 [Acessar a GameStore Pro](https://michaelhenri.github.io/ecommerce-gamer-front-end-senai/)
+
+## 🚀 Funcionalidades
+* **Banner Principal Dinâmico:** Carrossel automático (Hero Carousel) com controle de tempo (4s), transição suave de opacidade (`carousel-fade`) e ajustes manuais responsivos nas bordas.
+* **Cards de Produtos Interativos:** Carrosséis internos de fotos para cada produto com navegação manual.
+* **Hierarquia Visual Otimizada:** Ajustes de contraste de texto (`text-white-75`) e espaçamentos (`ps-md-5`) para garantir leitura perfeita sobre imagens de fundo complexas.
+* **Sistema de Login/Cadastro:** Estrutura e lógica de formulários integradas.
+
+## 🛠️ Tecnologias Utilizadas
+* **HTML5** - Estruturação semântica da página.
+* **CSS3** - Estilização personalizada, efeitos neon, sombras de texto e Media Queries para responsividade avançada.
+* **Bootstrap 5** - Sistema de Grid, utilitários de espaçamento e componentes (Carousel, Badges, Buttons).
+* **Bootstrap Icons** - Iconografia gamer e de navegação.
+
+## 📦 Como rodar o projeto localmente
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/michaelhenri/ecommerce-gamer-front-end-senai.git](https://github.com/michaelhenri/ecommerce-gamer-front-end-senai.git)
