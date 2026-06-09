@@ -21,4 +21,4 @@ Você pode testar a aplicação em tempo real clicando no link abaixo:
 ## 📦 Como rodar o projeto localmente
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/michaelhenri/ecommerce-gamer-front-end-senai.git](https://github.com/michaelhenri/ecommerce-gamer-front-end-senai.git)
+   git clone https://github.com/michaelhenri/ecommerce-gamer-front-end-senai.git
